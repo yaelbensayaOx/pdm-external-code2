@@ -89,16 +89,7 @@ tox = [
     "tox",
     "tox-pdm>=0.5",
 ]
-doc = [
-    "mkdocs>=1.1",
-    "mkdocs-material>=7.3",
-    "mkdocstrings[python]>=0.18",
-    "setuptools>=62.3.3",
-    "markdown-exec>=0.7.0",
-    "mkdocs-redirects>=1.2.0",
-    "mkdocs-version-annotations>=1.0.0",
-    "mkdocs-llmstxt>=0.2.0",
-]
+doc = ["mkdocs>=1.1", "mkdocs-material>=9.7.6", "mkdocstrings[python]>=0.18", "setuptools>=62.3.3", "markdown-exec>=0.7.0", "mkdocs-redirects>=1.2.0", "mkdocs-version-annotations>=1.0.0", "mkdocs-llmstxt>=0.2.0"]
 workflow = [
     "parver>=0.3.1",
     "towncrier>=20",
